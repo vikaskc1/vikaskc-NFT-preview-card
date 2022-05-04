@@ -1,0 +1,126 @@
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+
+ 
+
+--Verydark-blue-mainBG: hsl(217, 54%, 11%);
+--Verydark-blue-cardBG: hsl(216, 50%, 16%);
+--Verydark-blue-line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background: var(--Verydark-blue-mainBG);
+    justify-content: center;
+    align-items: center;
+    
+}
+hr{
+    width: 90%;
+    margin-left: 1em;    
+    border: .2px solid var(--Soft-blue);
+    height: 1px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+}
+.card{
+     
+    width: 22em;
+    border-radius: 1em;
+    background: var(--Verydark-blue-cardBG);
+}
+.card img{
+    width: 21em;
+    padding: 1em;
+    margin: 0 0 0 .4em;
+    border-radius: 1.5em;
+}
+.card h1{
+    padding: 0 0 0 .8em;
+    color: var(--White);
+    font-weight: 600;
+    font-size: 28px;
+    font-family: 'Outfit', sans-serif;
+
+    
+}
+.card p{
+    color: var(--Soft-blue);
+    padding: 1em 1em 0 1.6em;
+    justify-content: center;
+    align-items:center ;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+.pr-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em 1em 2em;
+    font-weight: 400;
+    }
+  .price{
+    color: var(--Cyan);
+    
+
+    }
+    .price img{
+        width: .8em;
+        margin: 0 .3em 0 0;
+        padding: 0;
+        justify-content: center;
+    }
+    .price-time img{
+        width: 1.2em;
+        margin: 0 .3em 0 0;
+        padding: 0;
+        justify-content: center;
+    }
+.price-time{
+    color: var(--Soft-blue);
+    justify-content: center;
+  
+}
+.user{
+    display: flex;     
+    align-items: center;   
+    margin: 0 1.3em 0 1.3em;  
+    padding: 1em 0 1em 0;
+
+}
+ .usr-img img{
+    width: 2.5em;
+    border: 1px solid var(--White);
+    padding: 0;
+    border-radius: 50%;
+}
+ .usr-info{
+     margin: 0 0 0 1em;
+     color: var(--White);
+     font-weight: 300;
+     justify-content: center;
+ }
+ .usr-info span{
+     color: var(--Soft-blue);
+ }
+
+
+
+ 
+.attribution { font-size: 11px; text-align: center;  color: var(--White);}
+.attribution a { color: hsl(228, 45%, 44%); }
+ 
